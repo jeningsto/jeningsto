@@ -1,0 +1,35 @@
+
+ 
+ abstract class Animal{
+	 
+	 abstract void sound();
+ }
+
+ 
+ class dog extends Animal{
+	 void sound() {
+		 System.out.println("woww");
+	 }
+ }
+
+ class cat extends Animal{
+	 
+	 void sound() {
+		 System.out.println("mimimi");
+	 }
+ }
+
+
+public class AbstractionTask {
+        
+	public static void main(String[] args) {
+		
+		Animal obj1 = new dog();
+		obj1.sound();
+		
+		Animal obj2 = new cat();
+		obj2.sound();
+		
+	
+	}
+}
