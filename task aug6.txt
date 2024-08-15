@@ -1,0 +1,87 @@
+
+1
+package first.java;
+
+ class addtwonumber {
+	static void name() {
+		int a=10;
+		int b=20;
+		System.out.println("add the two value");
+		int s=a+b;
+		System.out.println("the sum is="+s);
+		
+	}
+	public static void main(String[] args) {
+		name();
+		
+	}
+	
+
+}
+2
+package first.java;
+
+public class Calculator {
+
+    // Method to perform addition
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    // Method to perform subtraction
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+
+    // Method to perform multiplication
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
+    // Method to display the results
+    public void displayResults(int a, int b) {
+        System.out.println("Addition of " + a + " and " + b + " is: " + add(a, b));
+        System.out.println("Subtraction of " + a + " and " + b + " is: " + subtract(a, b));
+        System.out.println("Multiplication of " + a + " and " + b + " is: " + multiply(a, b));
+    }
+
+    // Main method to test the Calculator class
+    public static void main(String[] args) {
+        // Create an object of the Calculator class
+        Calculator s= new Calculator();
+        s.add(2, 2);
+        s.subtract(2,2);
+        s.multiply(2, 2);
+
+    }}
+	3
+package first.java;
+
+public class employee  {
+	int id=123;
+
+	  String u="jeningston";
+	
+
+	public static void main(String[] args) {
+		System.out.println();
+	}
+
+}
+
+
+
+
+package first.java;
+
+public class callclass {
+	public static void main(String[] args) {
+		
+	
+employee sc=new employee();
+		System.out.println(sc.id);
+		System.out.println(sc.u);
+
+}
+}
+
