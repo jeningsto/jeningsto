@@ -1,0 +1,49 @@
+package first.java;
+public class circle {
+	private float radius;
+	private String color;
+
+public circle(float radius,String color)
+{
+	this.radius=radius;
+	this.color=color;
+}
+public void display() {
+	System.out.println("circle is "+this.radius);
+	System.out.println(" circle is "+this.color);
+	
+}
+
+	public static void main(String[] args) {
+		circle c=new circle(1,"red");
+		c.display();
+	}
+
+}
+2
+package student;
+
+public class student {
+	public String name;
+	public int rollno;
+	public double marks;
+	
+public student(String name,int roll_no,double marks) {
+	this.name=name;
+	this.rollno=roll_no;
+	this.marks=marks;
+}
+public void display() {
+	System.out.println("Name:"+this.name);
+	System.out.println("Role.No:"+this.rollno);
+	System.out.println("Marks:"+this.marks);
+}
+
+	public static void main(String[] args) {
+		student S=new student("jeningston",50,60.598);
+		S.display();
+		
+
+	}
+
+}
